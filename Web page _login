@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>web page login</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://app.gemoo.com/share/image-annotation/646326021509361664?codeId=v67bjAdg4ld8o&origin=imageurlgenerator">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    width: 400px;
+    background-color: #141414;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .login-container h1 {
+    margin-bottom: 20px;
+  }
+
+  .login-container input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .login-container button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-container button:hover {
+    background-color: #ff0a16;
+  }
+
+  .login-container .options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .login-container .options a {
+    color:blue ;
+    text-decoration: none;
+  }
+
+  .login-container .options a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #777;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons i:hover {
+    color: #fff;
+  }
+  .img_deg{
+    float: right;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="login-container">
+    <img class="img_deg" src="logo_png.png" alt="Logo">
+    <h1>Sign In</h1>
+    <form>
+      <input type="email/phone number/username" placeholder="Email/Phone number/username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign In</button>
+    </form>
+    <div class="options">
+      <a href="#">Forgot password?</a>
+      <a href="#">Sign up now</a>
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-google"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
